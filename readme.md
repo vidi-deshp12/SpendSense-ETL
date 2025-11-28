@@ -1,8 +1,7 @@
 # SpendSense: Financial ETL and MoM Analytics Pipeline
 
-## Project Status
-**Status:** ETL and Reporting Complete (V1.0) | ML Prediction Stage Pending
-**Goal:** To build a robust, production-ready pipeline for extracting unstructured financial data from PDFs, transforming it into analytics-ready records, and visualizing key financial metrics.
+## Goal
+To build a robust, production-ready pipeline for extracting unstructured financial data from PDFs, transforming it into analytics-ready records, and visualizing key financial metrics.
 
 ## Key Achievements
 * **Performance:** Implemented a semi-automated ETL pipeline (Camelot, Pandas, PostgreSQL) that **cut monthly statement processing time** from ~1 hour to < 10 seconds (a ~90% reduction).
@@ -18,11 +17,11 @@
 
 ### Monthly Summary KPIs
 This view tracks MoM change for Spending, Income, and Net Savings, providing quick performance checks.
-![Monthly KPI Summary] (./Dashboard/assets/monthly_summary.png)
+![Monthly KPI Summary](./Dashboard/assets/kpi_dashboard.png)
 
 ### Spending Trends and Category Distribution
 This view allows dynamic filtering to analyze core spending (excluding transfers/rent) and tracks category distribution over time.
-![Category Trends] (./Dashboard/assets/category_trends.png)
+![Category Trends](./Dashboard/assets/trend_dashboard.png)
 
 ## Setup and Installation
 
@@ -46,4 +45,5 @@ This view allows dynamic filtering to analyze core spending (excluding transfers
 * Integrate Scikit-learn to build a classification model for automatic transaction category prediction.
 
 * Containerize the ETL using Docker for easy deployment.
+
 
