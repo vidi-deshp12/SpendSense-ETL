@@ -4,7 +4,7 @@
 **Status:** ETL and Reporting Complete (V1.0) | ML Prediction Stage Pending
 **Goal:** To build a robust, production-ready pipeline for extracting unstructured financial data from PDFs, transforming it into analytics-ready records, and visualizing key financial metrics.
 
-## Key Achievements (Why This Matters)
+## Key Achievements
 * **Performance:** Implemented a semi-automated ETL pipeline (Camelot, Pandas, PostgreSQL) that **cut monthly statement processing time** from ~1 hour to < 10 seconds (a ~90% reduction).
 * **Data Quality:** Improved data extraction accuracy from ~84% raw to **100%** clean records; implemented robust **data-quality checks** (validation, handling, duplicate detection, category mapping).
 * **Advanced Analytics:** Designed $\mathbf{SQL\ queries}$ to track spending $\mathbf{KPIs}$ and developed $\mathbf{Power\ BI}$ dashboards featuring dynamic controls to **filter non-core spending** (Rent, Transfers) and visualize **Month-over-Month (MoM) trends**.
@@ -46,3 +46,4 @@ This view allows dynamic filtering to analyze core spending (excluding transfers
 * Integrate Scikit-learn to build a classification model for automatic transaction category prediction.
 
 * Containerize the ETL using Docker for easy deployment.
+
