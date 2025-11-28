@@ -1,0 +1,8 @@
+# ETL and Data Manipulation
+pandas
+numpy
+camelot-py[cv] 
+# Database Connector
+psycopg2-binary # Or sqlalchemy, depending on your notebook
+# Notebook environment
+jupyter
